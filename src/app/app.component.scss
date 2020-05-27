@@ -1,0 +1,39 @@
+.container-fluid.insider{
+    .heading{
+        margin-bottom: 60px;
+        h1{
+            font-size: 60px;
+            color: silver;
+        }
+        .special{
+            text-align: center;
+            width: 300px;
+            border: 2px solid white;
+            color: orange;
+
+        }
+    }
+    padding: 7%;
+    border: 2px solid dodgerblue;
+    width: 80%;
+    margin: 20px auto auto auto;
+    color: dodgerblue;
+    border-radius: 20px;
+    background: black;
+    .invalid{
+        border: 2px solid red;
+        border-color: red;
+    }
+    .valid{
+        border: 2px solid green;
+        border-color: green;
+    }
+    .invalidSpan{
+      color: red;
+    }
+}
+
+.submitButton{
+    margin-top: 10%;
+    text-align: center;
+}
